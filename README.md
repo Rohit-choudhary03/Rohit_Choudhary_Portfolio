@@ -32,38 +32,6 @@ Personal portfolio website for **Rohit Choudhary**, Final-year Computer Science 
 
 ---
 
-## 🚀 How to Deploy to GitHub Pages
-
-Deploying your portfolio to GitHub Pages takes under 2 minutes:
-
-### Option A: User Pages (`username.github.io`)
-1. Create a new repository on GitHub named exactly:
-   ```
-   Rohit-choudhary03.github.io
-   ```
-2. In your terminal, run:
-   ```bash
-   git add .
-   git commit -m "Initial commit: Rohit Choudhary portfolio website"
-   git branch -M main
-   git remote add origin https://github.com/Rohit-choudhary03/Rohit-choudhary03.github.io.git
-   git push -u origin main
-   ```
-3. Your site will automatically go live at **`https://rohit-choudhary03.github.io`**!
-
-### Option B: Project Pages (`username.github.io/portfolio`)
-1. Create a repository named `portfolio` on GitHub.
-2. Push your code:
-   ```bash
-   git add .
-   git commit -m "Initial commit: Rohit Choudhary portfolio website"
-   git branch -M main
-   git remote add origin https://github.com/Rohit-choudhary03/portfolio.git
-   git push -u origin main
-   ```
-3. Go to **Repository Settings** > **Pages** > Under "Branch", select `main` and `/ (root)` > Click **Save**.
-
----
 
 ## 📄 License
 
