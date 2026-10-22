@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Rohit Choudhary**, Final-year Computer Science undergraduate at SRM Institute of Science and Technology.
 
-🌐 **Live Website**: [https://rohit-choudhary03.github.io](https://rohit-choudhary03.github.io)  
+🌐 **Live Website**: [[https://rohit-choudhary03.github.io](https://rohit-choudhary03.github.io) ](https://rohit-choudhary03.github.io/Rohit_Choudhary_Portfolio/) 
 📫 **Email**: [rohitchoudharyjat2003@gmail.com](mailto:rohitchoudharyjat2003@gmail.com)  
 💼 **LinkedIn**: [linkedin.com/in/rohit-x](https://linkedin.com/in/rohit-x)  
 🐙 **GitHub**: [github.com/Rohit-choudhary03](https://github.com/Rohit-choudhary03)  
