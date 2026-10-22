@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rohit Choudhary — AI/ML & Full Stack Engineer. AWS Certified AI Practitioner, machine learning, predictive modeling, Java, React, and scalable backend architecture.">
+  <meta name="keywords" content="Rohit Choudhary, AI Engineer, Machine Learning, AI/ML, Full Stack Developer, Software Engineer, Python, AWS AI, Java, React, Spring Boot, Portfolio">
+  <meta name="author" content="Rohit Choudhary">
+  <meta property="og:title" content="Rohit Choudhary — AI/ML & Full Stack Engineer">
+  <meta property="og:description" content="Final-year CS undergrad specializing in AI/ML, predictive modeling, and scalable full-stack applications.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Rohit-choudhary03">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rohit Choudhary — AI/ML & Full Stack Engineer">
+  <meta name="twitter:description" content="Final-year CS undergrad specializing in AI/ML, predictive modeling, and scalable full-stack applications.">
+  <title>Rohit Choudhary — AI/ML &amp; Full Stack Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-ring"></div>
+      <span class="preloader-text">Loading</span>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>RC<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle Dark/Light Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="Rohit_Choudhary_Resume.pdf" download="Rohit_Choudhary_Resume.pdf" class="nav-resume-btn" title="Download Resume">
+          <i class="fa-solid fa-file-arrow-down"></i> <span>Resume</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-animation">
+      <div class="hero-particles" id="heroParticles"></div>
+      <div class="hero-gradient"></div>
+    </div>
+    <div class="hero-content">
+      <div>
+        <span class="hero-greeting reveal-up">Hello, I'm</span>
+      </div>
+      <h1 class="hero-name reveal-up">Rohit Choudhary</h1>
+      <div class="hero-typing-wrapper reveal-up">
+        <span class="hero-typing-prefix">An&nbsp;</span>
+        <span class="hero-typed" id="heroTyped"></span>
+        <span class="typing-cursor">|</span>
+      </div>
+      <p class="hero-bio reveal-up">
+        Final-year Computer Science undergraduate (CGPA 8.38) specializing in <strong>AI/Machine Learning</strong>, <strong>Predictive Analytics</strong>, and <strong>Full-Stack Development</strong>. <strong>AWS Certified AI Practitioner</strong> with hands-on experience building ML forecasting systems (85% accuracy), data intelligence pipelines, and high-throughput production REST APIs.
+      </p>
+      <div class="hero-badges reveal-up">
+        <span class="hero-pill"><i class="fa-solid fa-brain"></i> AI / ML Engineer</span>
+        <span class="hero-pill"><i class="fa-brands fa-aws"></i> AWS Certified AI</span>
+        <span class="hero-pill"><i class="fa-solid fa-code"></i> Full Stack Developer</span>
+        <span class="hero-pill"><i class="fa-solid fa-chart-pie"></i> Data Analytics</span>
+      </div>
+      <div class="hero-cta reveal-up">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-code"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-envelope"></i> Contact Me
+        </a>
+        <a href="Rohit_Choudhary_Resume.pdf" download="Rohit_Choudhary_Resume.pdf" class="btn btn-resume">
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a>
+      </div>
+      <div class="hero-socials reveal-up">
+        <a href="https://github.com/Rohit-choudhary03" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/rohit-x" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:rohitchoudharyjat2003@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-subtitle">What I Work With</p>
+        <h2 class="section-title">Skills & Tech Stack</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-grid">
+        <!-- AI & Machine Learning (Specialization) -->
+        <div class="skill-category skill-category-featured reveal-up">
+          <div class="skill-category-header">
+            <div class="skill-category-icon cert-ai-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div>
+              <h3>AI &amp; Machine Learning</h3>
+              <span class="featured-sub">Specialization &bull; AWS Certified</span>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-python"></i><span>Python / NumPy / Pandas</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-chart-line"></i><span>Predictive Modeling &amp; Regression</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-aws"></i><span>AWS Cloud AI &amp; GenAI</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="86"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-filter"></i><span>Data Pipelines &amp; Feature Prep</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-chart-pie"></i><span>Power BI &amp; DAX Analytics</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="skill-category reveal-up">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-java"></i><span>Java</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-python"></i><span>Python</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-code"></i><span>C++</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="86"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-html5"></i><span>HTML5 / CSS3</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks & Technologies -->
+        <div class="skill-category reveal-up">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-leaf"></i><span>Spring Boot</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-react"></i><span>React</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-node-js"></i><span>Node.js / Express</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-python"></i><span>Flask</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-plug"></i><span>REST APIs / JDBC</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases & Tools -->
+        <div class="skill-category reveal-up">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3>Databases &amp; Tools</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-database"></i><span>PostgreSQL &amp; MySQL</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-brands fa-git-alt"></i><span>Git &amp; GitHub</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-paper-plane"></i><span>Postman</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-chart-pie"></i><span>Power BI</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><i class="fa-solid fa-sitemap"></i><span>DSA / OOPs / DBMS</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Soft Skills & Core Strengths -->
+      <div class="skills-soft reveal-up">
+        <h4 class="skills-soft-title"><i class="fa-solid fa-brain"></i> Core Competencies &amp; Soft Skills</h4>
+        <div class="skills-soft-tags">
+          <span class="soft-tag"><i class="fa-solid fa-robot"></i> Machine Learning Pipelines</span>
+          <span class="soft-tag"><i class="fa-solid fa-chart-line"></i> Predictive Data Modeling</span>
+          <span class="soft-tag"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+          <span class="soft-tag"><i class="fa-solid fa-users"></i> Cross-functional Collaboration</span>
+          <span class="soft-tag"><i class="fa-solid fa-arrows-split-up-and-left"></i> Agile &amp; Sprint Planning</span>
+          <span class="soft-tag"><i class="fa-solid fa-chess"></i> Strategic Thinking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-subtitle">My Recent Work</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="project-filters reveal-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="aiml">AI / ML</button>
+        <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1: Carbon Emission Forecasting (AI/ML) -->
+        <div class="project-card reveal-up" data-category="aiml">
+          <div class="project-image">
+            <div class="project-image-placeholder">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://github.com/Rohit-choudhary03" class="project-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="cert-badge" style="font-size:0.75rem;"><i class="fa-solid fa-star"></i> Featured AI/ML Project</div>
+            <h3>Carbon Emission Forecasting System</h3>
+            <p>Engineered predictive regression forecasting models achieving ~85% accuracy on 5+ years of historical emission data (10,000+ records). Created 5+ interactive dashboards and automated end-to-end data pipelines, cutting manual reporting time from ~4 hours to 1 hour per cycle.</p>
+            <div class="project-tags">
+              <span>AI/ML</span><span>Predictive Modeling</span><span>Python</span><span>Data Analytics</span><span>Automation</span>
+            </div>
+            <div class="project-date">Sep 2025 – Dec 2025</div>
+          </div>
+        </div>
+
+        <!-- Project 2: Power BI Dashboard Portfolio (Data Analytics) -->
+        <div class="project-card reveal-up" data-category="analytics">
+          <div class="project-image">
+            <div class="project-image-placeholder">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://github.com/Rohit-choudhary03" class="project-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="cert-badge" style="font-size:0.75rem;"><i class="fa-solid fa-chart-line"></i> Business Intelligence</div>
+            <h3>Power BI Enterprise Analytics Portfolio</h3>
+            <p>Interactive portfolio of dashboards for sales, e-commerce, inventory, IT support, geographic, and performance analysis. Created dynamic KPI cards, drill-through reports, Pareto analysis, and scenario-based insights using DAX and Power Query.</p>
+            <div class="project-tags">
+              <span>Power BI</span><span>DAX</span><span>Power Query</span><span>Python</span><span>ETL</span>
+            </div>
+            <div class="project-date">Jan 2026 – Mar 2026</div>
+          </div>
+        </div>
+
+        <!-- Project 3: AgriLearn (Full Stack & Data) -->
+        <div class="project-card reveal-up" data-category="fullstack">
+          <div class="project-image">
+            <div class="project-image-placeholder">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://github.com/Rohit-choudhary03" class="project-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="cert-badge" style="font-size:0.75rem;"><i class="fa-solid fa-code"></i> Full Stack &amp; Gamification</div>
+            <h3>AgriLearn – Educational Gaming Platform</h3>
+            <p>Architected 12+ RESTful APIs using MVC architecture, powering game logic, progress tracking, and 2 third-party live data integrations for weather and soil conditions. Reduced average API response time by ~30% through PostgreSQL query optimization and indexing.</p>
+            <div class="project-tags">
+              <span>Full Stack</span><span>REST APIs</span><span>Node.js</span><span>PostgreSQL</span><span>EdTech</span>
+            </div>
+            <div class="project-date">Jan 2026 – Mar 2026</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE & EDUCATION SECTION ===== -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-subtitle">Career &amp; Academics</p>
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="timeline">
+        <!-- Experience: Oston Technology -->
+        <div class="timeline-item reveal-up" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge"><i class="fa-solid fa-briefcase"></i> Internship</div>
+            <div class="timeline-date">Dec 2025 — Feb 2026</div>
+            <h3>Full Stack Developer Intern</h3>
+            <h4>Oston Technology Private Limited <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Chennai, India</span></h4>
+            <ul class="timeline-bullets">
+              <li>Engineered and deployed <strong>10+ RESTful APIs</strong> using Node.js and Express, supporting client applications and 3 third-party integrations.</li>
+              <li>Improved API response speed by <strong>35%</strong> through query optimization and database indexing in PostgreSQL.</li>
+              <li>Designed responsive frontend interfaces in React and connected them to <strong>8+ backend endpoints</strong>.</li>
+              <li>Resolved <strong>15+ production bugs</strong> across backend services, reducing recurring incident reports by an estimated 20%.</li>
+              <li>Collaborated in Agile sprints with a 6-member cross-functional team, participating in sprint planning, debugging, and code reviews.</li>
+              <li>Authored <strong>5+ technical documentation guides</strong> for API integration, cutting new developer onboarding time by roughly 25%.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education: SRM Institute -->
+        <div class="timeline-item reveal-up" data-side="right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge education-badge"><i class="fa-solid fa-graduation-cap"></i> Education</div>
+            <div class="timeline-date">Sep 2023 — May 2027</div>
+            <h3>B.Tech in Computer Science</h3>
+            <h4>SRM Institute of Science and Technology <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Chennai, India</span></h4>
+            <p class="timeline-gpa"><strong>CGPA: 8.38 / 10.0</strong> &bull; Final-Year Undergraduate</p>
+            <ul class="timeline-bullets">
+              <li>Strong foundation in Data Structures &amp; Algorithms, Object-Oriented Programming, Operating Systems, and DBMS.</li>
+              <li>Developed and shipped 3+ full-stack applications, including a production REST API layer handling 100+ concurrent requests.</li>
+              <li>Active participant in coding challenges, hackathons, and technical projects across full-stack and data domains.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-subtitle">Verified Credentials</p>
+        <h2 class="section-title">Certifications</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="certifications-grid">
+        <!-- Cert 1: AWS AI (Featured) -->
+        <div class="cert-card cert-featured reveal-up">
+          <div class="cert-icon-wrapper cert-aws">
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <div class="cert-body">
+            <div class="cert-badge featured-badge"><i class="fa-solid fa-star"></i> Featured AI Credential &bull; Valid till 2029</div>
+            <h3>AWS Certified AI Practitioner</h3>
+            <p class="cert-issuer">Amazon Web Services (AWS)</p>
+            <p class="cert-desc">Demonstrates verified industry proficiency in machine learning concepts, generative AI foundation models, prompt engineering, AWS AI services (Bedrock, SageMaker, Rekognition), and responsible AI practices.</p>
+            <div class="cert-tags">
+              <span>Generative AI</span><span>Machine Learning</span><span>AWS SageMaker &amp; Bedrock</span><span>Prompt Engineering</span><span>Responsible AI</span>
+            </div>
+          </div>
+        </div>
+        <!-- Cert 2 -->
+        <div class="cert-card reveal-up">
+          <div class="cert-icon-wrapper cert-oracle">
+            <i class="fa-brands fa-java"></i>
+          </div>
+          <div class="cert-body">
+            <div class="cert-badge">Professional Credential</div>
+            <h3>Oracle Certified Professional: Java SE 17 Developer</h3>
+            <p class="cert-issuer">Oracle Corporation</p>
+            <p class="cert-desc">Validates in-depth mastery of Java SE 17, object-oriented design, functional programming, multithreading, concurrency, and modular architecture.</p>
+            <div class="cert-tags">
+              <span>Java SE 17</span><span>OOPs</span><span>Concurrency</span><span>Streams &amp; Lambdas</span>
+            </div>
+          </div>
+        </div>
+        <!-- Cert 3 -->
+        <div class="cert-card reveal-up">
+          <div class="cert-icon-wrapper cert-sap">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <div class="cert-body">
+            <div class="cert-badge">Active &bull; Valid till Apr 2027</div>
+            <h3>SAP Certified – Data Analyst</h3>
+            <p class="cert-issuer">SAP Analytics Cloud</p>
+            <p class="cert-desc">Recognizes expertise in building end-to-end analytical data models, interactive dashboards, predictive forecasting algorithms, and executive data storytelling on SAP Analytics Cloud.</p>
+            <div class="cert-tags">
+              <span>Predictive Analytics</span><span>SAP Analytics Cloud</span><span>Data Modeling</span><span>BI &amp; Forecasting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG SECTION ===== -->
+  <section id="blog" class="section blog">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-subtitle">Technical Insights</p>
+        <h2 class="section-title">Articles &amp; Write-ups</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card reveal-up">
+          <div class="blog-image">
+            <div class="blog-image-placeholder">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="blog-date">Feb 2026</div>
+          </div>
+          <div class="blog-content">
+            <h3>Predictive Machine Learning for Carbon Forecasting: 85% Accuracy with Regression</h3>
+            <p>How regression models, feature engineering, and automated ETL pipelines transformed 5+ years of emissions data into actionable sustainability insights.</p>
+            <a href="https://github.com/Rohit-choudhary03" target="_blank" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card reveal-up">
+          <div class="blog-image">
+            <div class="blog-image-placeholder">
+              <i class="fa-brands fa-aws"></i>
+            </div>
+            <div class="blog-date">Feb 2026</div>
+          </div>
+          <div class="blog-content">
+            <h3>Demystifying Cloud AI &amp; Generative AI: Learnings from AWS AI Practitioner</h3>
+            <p>A structured guide to foundational models, embeddings, RAG architectures, and responsible AI governance in enterprise cloud environments.</p>
+            <a href="https://github.com/Rohit-choudhary03" target="_blank" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card reveal-up">
+          <div class="blog-image">
+            <div class="blog-image-placeholder">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div class="blog-date">Jan 2026</div>
+          </div>
+          <div class="blog-content">
+            <h3>Designing Enterprise Power BI Dashboards with Advanced DAX &amp; Python</h3>
+            <p>Techniques for dynamic KPI cards, drill-through reports, Pareto visual analysis, and optimizing Power Query ETL pipelines.</p>
+            <a href="https://github.com/Rohit-choudhary03" target="_blank" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card reveal-up">
+          <div class="blog-image">
+            <div class="blog-image-placeholder">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="blog-date">Dec 2025</div>
+          </div>
+          <div class="blog-content">
+            <h3>Optimizing PostgreSQL Queries &amp; Indexing for 35% Faster Response Times</h3>
+            <p>Hands-on strategies for analyzing query execution plans with EXPLAIN ANALYZE, B-tree vs GIN indexing, and reducing bottleneck latency in Node.js backends.</p>
+            <a href="https://github.com/Rohit-choudhary03" target="_blank" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+            <a href="https://github.com/Rohit-choudhary03" target="_blank" class="blog-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-subtitle">Get In Touch</p>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info reveal-up">
+          <h3>Let's build something great together</h3>
+          <p>I'm actively seeking opportunities in software engineering, full-stack development, and technical education. Feel free to reach out via email, phone, or LinkedIn!</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span>Email</span>
+                <a href="mailto:rohitchoudharyjat2003@gmail.com">rohitchoudharyjat2003@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span>Phone</span>
+                <a href="tel:+917425058310">+91 7425058310</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span>Location</span>
+                <p>Chennai, India</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/Rohit-choudhary03" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/rohit-x" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:rohitchoudharyjat2003@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+          <!-- Map placeholder -->
+          <div class="contact-map">
+            <div class="map-placeholder">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <span>Chennai, Tamil Nadu, India</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal-up" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="formName" name="name" required autocomplete="name">
+            <label for="formName">Your Name</label>
+            <div class="form-highlight"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="formEmail" name="email" required autocomplete="email">
+            <label for="formEmail">Your Email</label>
+            <div class="form-highlight"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="formSubject" name="subject" required>
+            <label for="formSubject">Subject</label>
+            <div class="form-highlight"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="formMessage" name="message" rows="5" required></textarea>
+            <label for="formMessage">Message</label>
+            <div class="form-highlight"></div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span>Send Message</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo">
+          <span class="logo-bracket">&lt;</span>RC<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p>&copy; 2026 Rohit Choudhary. Crafted with passion, code, and continuous learning.</p>
+        <div class="footer-socials">
+          <a href="https://github.com/Rohit-choudhary03" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/rohit-x" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:rohitchoudharyjat2003@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
